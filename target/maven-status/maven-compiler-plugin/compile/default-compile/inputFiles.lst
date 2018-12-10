@@ -1,0 +1,15 @@
+D:\Self-study\Testing\Framework\Fanji\src\main\java\global\Const.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\selenium\BrowserUtil.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\common\ConfigReader.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\common\JsonReader.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\selenium\ElementFinder.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\com\fanji\id\object\pages\authentification\LoginPage.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\selenium\ElementAction.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\com\fanji\id\object\pages\BasePage.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\com\fanji\id\object\sub\pages\BaseSubPage.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\app\FanjiUtil.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\common\CommonUtil.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\com\fanji\id\object\PagesFactory.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\selenium\DriverFactory.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\com\fanji\id\object\popups\BasePopup.java
+D:\Self-study\Testing\Framework\Fanji\src\main\java\utils\common\LogUtil.java

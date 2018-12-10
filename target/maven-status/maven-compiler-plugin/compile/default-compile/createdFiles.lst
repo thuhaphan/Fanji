@@ -1,0 +1,16 @@
+utils\common\LogUtil.class
+utils\common\JsonReader.class
+utils\app\FanjiUtil.class
+com\fanji\id\object\sub\pages\BaseSubPage.class
+utils\common\CommonUtil.class
+utils\selenium\DriverFactory.class
+utils\selenium\ElementAction.class
+com\fanji\id\object\PagesFactory.class
+utils\selenium\BrowserUtil.class
+com\fanji\id\object\popups\BasePopup.class
+global\Const.class
+utils\selenium\ElementFinder.class
+com\fanji\id\object\pages\BasePage.class
+com\fanji\id\object\pages\authentification\LoginPage.class
+com\fanji\id\object\PagesFactory$Locators.class
+utils\common\ConfigReader.class
