@@ -17,9 +17,15 @@ public class LoginTest extends BaseTest{
 
     @Test (description = "Login failed with an invalid password")
     public void loginFailed(){
-        final String ERROR_MSG = "There was a problem with your login!";
-        loginPage.typeEmail("public.test@yahoo.com")
-                .typePassword("invalid pass")
+        // Test data
+        testData = dataReader.get("tc01");
+        final String USERNAME = (String) testData.get("username");
+        final String PASSWORD = (String) testData.get("password");
+        final String ERROR_MSG = (String) testData.get("errorMessage");
+
+        // Test case
+        loginPage.typeEmail(USERNAME)
+                .typePassword(PASSWORD)
                 .clickLogInButton();
         Assert.assertEquals(loginPage.seeErrorMessage(ERROR_MSG), ERROR_MSG);
     }

@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Smoke_Tests" class="navigator-link">
-              <span class="suite-name border-skipped">Smoke Tests</span>
+              <span class="suite-name border-passed">Smoke Tests</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title skipped">Skipped methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Smoke_Tests" class="hide-methods skipped suite-Smoke_Tests"> (hide)</a> <!-- hide-methods skipped suite-Smoke_Tests -->
-                      <a href="#" panel-name="suite-Smoke_Tests" class="show-methods skipped suite-Smoke_Tests"> (show)</a> <!-- show-methods skipped suite-Smoke_Tests -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Smoke_Tests" class="hide-methods passed suite-Smoke_Tests"> (hide)</a> <!-- hide-methods passed suite-Smoke_Tests -->
+                      <a href="#" panel-name="suite-Smoke_Tests" class="show-methods passed suite-Smoke_Tests"> (show)</a> <!-- show-methods passed suite-Smoke_Tests -->
                     </span>
-                    <div class="method-list-content skipped suite-Smoke_Tests">
+                    <div class="method-list-content passed suite-Smoke_Tests">
                       <span>
-                        <img src="skipped.png" width="3%"/>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Smoke_Tests" title="strategies.smoke.LoginTest" class="method navigator-link" hash-for-method="loginFailed">loginFailed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content skipped suite-Smoke_Tests -->
+                    </div> <!-- method-list-content passed suite-Smoke_Tests -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -117,9 +117,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Smoke_Tests" class="panel Smoke_Tests">
-          <div class="suite-Smoke_Tests-class-skipped">
+          <div class="suite-Smoke_Tests-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
+              <img src="passed.png"/>
               <span class="class-name">strategies.smoke.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -128,33 +128,12 @@
                   <a name="loginFailed">
                   </a> <!-- loginFailed -->
                   <span class="method-name">loginFailed</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Cannot navigate to invalid URL&quot;}
-  (Session info: chrome=69.0.3497.100)
-  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
-System info: host: &apos;48XXRQ2&apos;, ip: &apos;192.168.30.236&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\hattphan\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61912}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}
-Session ID: bba37d88336597e47bbf8df6f39d75aa
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
-	at strategies.BaseTest.initTest(BaseTest.java:24)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
                   <em>
 (Login failed with an invalid password)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Smoke_Tests-class-skipped -->
+          </div> <!-- suite-Smoke_Tests-class-passed -->
         </div> <!-- panel Smoke_Tests -->
         <div panel-name="test-xml-Smoke_Tests" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -212,12 +191,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginFailed')
 data.setCell(0, 2, 'strategies.smoke.LoginTest')
-data.setCell(0, 3, 0);
+data.setCell(0, 3, 985);
 window.suiteTableData['Smoke_Tests']= { tableData: data, tableDiv: 'times-div-Smoke_Tests'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 0 ms</span>
+              <span class="suite-total-time">Total running time: 985 ms</span>
               <div id="times-div-Smoke_Tests">
               </div> <!-- times-div-Smoke_Tests -->
             </div> <!-- times-div -->
@@ -245,15 +224,21 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">strategies.smoke.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">initTest(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">8080 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginFailed</span>
-                <span class="method-start">-1544445946017 ms</span>
+                <span class="method-start">8090 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">cleanUpTest</span>
+                <span class="method-start">9077 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
