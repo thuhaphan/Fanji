@@ -1,0 +1,8 @@
+{
+  "tc01" : {
+    "name": "Login failed with an invalid username and password",
+    "username": "public.test@yahoo.com",
+    "password": "invalid pass",
+    "errorMessage": "There was a problem with your login."
+  }
+}
